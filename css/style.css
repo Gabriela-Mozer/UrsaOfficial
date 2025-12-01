@@ -4,15 +4,15 @@
   padding: 0;
 }
 :root {
-  --accent: #ff4da6; /* neon pink */
-  --accent-2: #7c6bff; /* purple */
+  --accent: #ff4da6;
+  --accent-2: #7c6bff; 
   --accent-3: #523594;
   --muted: #bdb5c9;
   --card: #121018;
   --glass: rgba(255, 255, 255, 0.04);
   --max-width: 1100px;
 }
-
+html { scroll-behavior: smooth; }
 body {
   font-family: "Roboto Mono", monospace;
   font-weight: 500;
@@ -102,6 +102,7 @@ nav.main-nav a:hover {
   border-radius: 8px;
   text-decoration: none;
   font-weight: 700;
+  cursor: pointer;
 }
 .btn.secondary {
   background: transparent;
